@@ -1,0 +1,70 @@
+<object-views xmlns="http://axelor.com/xml/ns/object-views"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/object-views
+  http://axelor.com/xml/ns/object-views/object-views_5.4.xsd">
+
+  <grid name="applicant-grid" title="Candidats" model="com.axelor.ModuleRH.db.Applicant">
+    <field name="title"/>
+    <field name="name"/>
+    <field name="surname"/>
+    <field name="mail"/>
+    <field name="phone"/>
+    <field name="rolesc"/>
+    <field name="competences"/>
+  </grid>
+
+  <form name="applicant-form" title="Ajout Candidat" model="com.axelor.ModuleRH.db.Applicant"
+    width="large">
+
+    <panel>
+
+      <panel title="Informations Candidat">
+        <field name="title" colSpan="1"/>
+        <field name="name" colSpan="2"/>
+        <field name="surname" colSpan="2"/>
+      </panel>
+
+      <panel name="Contact">
+        <field name="mail" colSpan="3"/>
+        <field name="phone" colSpan="3"/>
+      </panel>
+
+      <panel title="Adresse">
+        <field name="address.street" readonly="false" colSpan="3"/>
+        <field name="address.city" readonly="false" colSpan="3"/>
+        <field name="address.zipcode" readonly="false" colSpan="2"/>
+        <field name="address.country" readonly="false" colSpan="2"/>
+      </panel>
+
+      <panel title="Expériences">
+        <panel-related field="rolesc" colSpan="6">
+          <field name="title"/>
+        </panel-related>
+        <panel-related field="competences" colSpan="6">
+          <field name="title"/>
+        </panel-related>
+        <field name="experience" colSpan="3"/>
+      </panel>
+
+      <panel title="Secteurs d'Activité">
+        <field name="open" colSpan="1" widget="boolean-switch"/>
+        <panel-related field="businessSectors" colSpan="5" showIf="!open">
+          <field name="title"/>
+        </panel-related>
+        <button name="addSector" title="Ajouter aux souhaits" showIf="!open" colSpan="2"/>
+        <button name="removeSector" title="Ajouter aux refus" showIf="!open" colSpan="2"/>
+      </panel>
+
+    </panel>
+
+    <panel>
+
+    </panel>
+
+
+  </form>
+
+  <!-- Comment <action-method name=""> <call class=com.axelor.apps.marketing.web.CampaignController"
+    method="inviteSelectedTargets"/> </action-method> -->
+
+</object-views>

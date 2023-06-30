@@ -1,0 +1,23 @@
+<object-views xmlns="http://axelor.com/xml/ns/object-views"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/object-views
+  http://axelor.com/xml/ns/object-views/object-views_5.4.xsd">
+
+  <grid name="client-grid" title="Clients" model="com.axelor.ModuleRH.db.Client">
+
+    <field name="name"/>
+
+  </grid>
+
+  <form name="client-form" title="Ajout Client" model="com.axelor.ModuleRH.db.Client">
+
+    <panel title="Client">
+
+      <field name="name"/>
+
+    </panel>
+
+  </form>
+
+
+</object-views>

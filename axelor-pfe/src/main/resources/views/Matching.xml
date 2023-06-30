@@ -1,0 +1,28 @@
+<object-views xmlns="http://axelor.com/xml/ns/object-views"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/object-views
+  http://axelor.com/xml/ns/object-views/object-views_5.4.xsd">
+
+  <grid name="matching-grid" title="Matching" model="com.axelor.ModuleRH.db.Matching">
+
+    <field name="title"/>
+    <field name="opportunity.title"/>
+    <field name="applicant.name"/>
+    <field name="matchRate"/>
+
+  </grid>
+
+  <form name="matching-form" title="Matching" model="com.axelor.ModuleRH.db.Matching">
+
+    <panel title="Matching">
+
+      <button name="match" title="Rechercher"
+        onClick="save,com.axelor.apps.matching.web.MatchingController:match" colSpan="4"/>
+      <field name="title" colSpan="1"/>
+
+    </panel>
+
+  </form>
+
+
+</object-views>

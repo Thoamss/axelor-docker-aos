@@ -1,0 +1,21 @@
+<domain-models xmlns="http://axelor.com/xml/ns/domain-models"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/domain-models
+  http://axelor.com/xml/ns/domain-models/domain-models_5.4.xsd">
+
+  <module name="ModuleRH" package="com.axelor.ModuleRH.db"/>
+
+  <enum name="ContractTypeEnum">
+
+    <item name="CDI" title="CDI" value="CDI"/>
+    <item name="CDD" title="CDD" value="CDD"/>
+    <item name="STAGE" title="Stage" value="Stage"/>
+    <item name="ALT" title="Alternance" value="Alternance"/>
+    <item name="PORTAGE" title="Portage salarial" value="PortageSalarial"/>
+    <item name="FREE" title="Freelance" value="Freelance"/>
+    <item name="ESN" title="ESN" value="ESN"/>
+    <item name="AUTRES" title="Autres" value="Autres"/>
+
+  </enum>
+
+</domain-models>

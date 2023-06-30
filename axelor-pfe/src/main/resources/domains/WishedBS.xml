@@ -1,0 +1,14 @@
+<domain-models xmlns="http://axelor.com/xml/ns/domain-models"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/domain-models
+  http://axelor.com/xml/ns/domain-models/domain-models_5.4.xsd">
+
+  <module name="ModuleRH" package="com.axelor.ModuleRH.db"/>
+
+  <entity name="WishedBS" table="wishedBS">
+
+    <many-to-many name="businessSector" title="Titre" ref="BusinessSectors"/>
+
+  </entity>
+
+</domain-models>

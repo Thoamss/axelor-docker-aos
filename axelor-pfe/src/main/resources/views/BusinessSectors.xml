@@ -1,0 +1,25 @@
+<object-views xmlns="http://axelor.com/xml/ns/object-views"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/object-views
+  http://axelor.com/xml/ns/object-views/object-views_5.4.xsd">
+
+  <grid name="sectors-grid" title="Secteurs d'Activité"
+    model="com.axelor.ModuleRH.db.BusinessSectors">
+
+    <field name="title"/>
+
+  </grid>
+
+  <form name="sectors-form" title="Ajout Secteur d'Activité"
+    model="com.axelor.ModuleRH.db.BusinessSectors">
+
+    <panel title="Titre">
+
+      <field name="title"/>
+
+    </panel>
+
+  </form>
+
+
+</object-views>

@@ -1,0 +1,22 @@
+<domain-models xmlns="http://axelor.com/xml/ns/domain-models"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/domain-models
+  http://axelor.com/xml/ns/domain-models/domain-models_5.4.xsd">
+
+  <module name="ModuleRH" package="com.axelor.ModuleRH.db"/>
+
+  <enum name="StatusEnum">
+    <item name="EnTraitement" title="En traitement" value="EnTraitement"/>
+    <item name="Vivier" title="Vivier" value="Vivier"/>
+    <item name="PriseRV1" title="Prise RV1" value="PriseRV1"/>
+    <item name="PriseRV2" title="Prise RV2" value="PriseRV2"/>
+    <item name="PriseRV3" title="Prise RV3" value="PriseRV3"/>
+    <item name="RV1" title="RV1" value="RV1"/>
+    <item name="RV2" title="RV2" value="RV2"/>
+    <item name="RV3" title="RV3" value="RV3"/>
+    <item name="Proposition" title="Proposition" value="Proposition"/>
+    <item name="Contrat" title="Contrat" value="Contrat"/>
+
+  </enum>
+
+</domain-models>
