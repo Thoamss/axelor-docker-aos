@@ -1,4 +1,4 @@
-package com.axelor.matching.service;
+package com.axelor.apps.matching.service;
 
 import java.sql.SQLException;
 

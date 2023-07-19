@@ -1,8 +1,8 @@
-package com.axelor.traitement.module;
+package com.axelor.apps.traitement.module;
 
 import com.axelor.app.AxelorModule;
-import com.axelor.traitement.service.TraitementService;
-import com.axelor.traitement.service.TraitementServiceImpl;
+import com.axelor.apps.traitement.service.TraitementService;
+import com.axelor.apps.traitement.service.TraitementServiceImpl;
 
 public class TraitementModule extends AxelorModule {
 

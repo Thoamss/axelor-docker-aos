@@ -1,6 +1,6 @@
-package com.axelor.matching.web;
+package com.axelor.apps.matching.web;
 
-import com.axelor.matching.service.MatchingService;
+import com.axelor.apps.matching.service.MatchingService;
 import com.axelor.rpc.ActionRequest;
 import com.axelor.rpc.ActionResponse;
 import java.sql.SQLException;

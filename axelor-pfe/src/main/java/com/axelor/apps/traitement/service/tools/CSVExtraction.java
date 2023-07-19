@@ -1,4 +1,4 @@
-package com.axelor.traitement.service.tools;
+package com.axelor.apps.traitement.service.tools;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

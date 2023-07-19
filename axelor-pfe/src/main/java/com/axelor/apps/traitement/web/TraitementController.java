@@ -1,8 +1,8 @@
-package com.axelor.traitement.web;
+package com.axelor.apps.traitement.web;
 
 import com.axelor.rpc.ActionRequest;
 import com.axelor.rpc.ActionResponse;
-import com.axelor.traitement.service.TraitementService;
+import com.axelor.apps.traitement.service.TraitementService;
 import java.io.IOException;
 import java.sql.SQLException;
 import javax.inject.Inject;

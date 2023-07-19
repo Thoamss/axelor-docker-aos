@@ -1,4 +1,4 @@
-package com.axelor.matching.service.models;
+package com.axelor.apps.matching.service.models;
 
 import java.util.ArrayList;
 import java.util.List;

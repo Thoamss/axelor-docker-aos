@@ -1,8 +1,8 @@
-package com.axelor.matching.service.tools;
+package com.axelor.apps.matching.service.tools;
 
-import com.axelor.matching.service.models.Applicant;
-import com.axelor.matching.service.models.Match;
-import com.axelor.matching.service.models.Opportunity;
+import com.axelor.apps.matching.service.models.Applicant;
+import com.axelor.apps.matching.service.models.Match;
+import com.axelor.apps.matching.service.models.Opportunity;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.axelor.traitement.service;
+package com.axelor.apps.traitement.service;
 
 import java.io.IOException;
 import java.sql.SQLException;

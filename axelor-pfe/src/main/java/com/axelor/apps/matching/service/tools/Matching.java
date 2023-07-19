@@ -1,6 +1,6 @@
-package com.axelor.matching.service.tools;
+package com.axelor.apps.matching.service.tools;
 
-import com.axelor.matching.service.models.Match;
+import com.axelor.apps.matching.service.models.Match;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
